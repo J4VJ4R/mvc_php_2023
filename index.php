@@ -2,5 +2,4 @@
 
 require_once 'libs/app.php';
 
-$app = new App();
-?>
+$app = new Loteria(10, 5);
